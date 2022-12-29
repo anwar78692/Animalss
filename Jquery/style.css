@@ -1,0 +1,10 @@
+.big-title {
+    color: red;
+    background-color: yellow;
+    font-size: 3rem;
+    font-family: cursive;
+    width: 30px;
+    height: 30px;
+    border:3px solid green;
+    
+}

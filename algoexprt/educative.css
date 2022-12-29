@@ -1,0 +1,66 @@
+/* div h1 {
+    color: green;
+    background-color: red;
+    border: 3px solid black;
+    width: 200px;
+    margin: 0px;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+section h1, section h2 {
+    color: blue;
+    background-color: yellow;
+    border: 5px solid red;
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 100px;
+    display: inline-block;
+    position: absolute;
+} 
+What are the pseudo class selector..
+The pseudo class selector targets the selector, in a specific type.
+*/
+
+/* a:link {
+    color: aqua;
+}
+a:visited {
+    color:cadetblue
+}
+a :hover {
+    color: chartreuse;
+}
+a:active {
+    color:darkseagreen
+} */
+body {
+    background-color:#c8b6ff;
+}
+
+p:nth-child(2n) {
+    color: blue;
+}
+p:nth-child(2n+1) {
+    color: red;
+}
+p:nth-child(2n-1) {
+    color:red;
+}
+li:nth-child(2n){
+    color: blue;
+}
+li:nth-child(2n+1){
+    color: red;
+}
+/* .first-letter {
+    color: red;
+}
+.second-letter {
+    color: blue;
+} */
+.content:first-letter {
+    color: green;
+}
